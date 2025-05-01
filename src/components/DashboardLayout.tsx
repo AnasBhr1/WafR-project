@@ -36,6 +36,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
     { name: 'User Search', href: '/search', icon: Search },
+    { name: 'Users', href: '/users', icon: Users },
     { name: 'Transactions', href: '/transactions', icon: FileText },
   ];
 
@@ -179,7 +180,9 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
                   ? 'User Search'
                   : location.pathname === '/transactions'
                     ? 'Transactions'
-                    : 'User Details'}
+                    : location.pathname === '/users'
+                      ? 'User Management'
+                      : 'User Details'}
             </h1>
           </div>
 

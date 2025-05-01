@@ -7,6 +7,7 @@ import DashboardPage from './pages/DashboardPage';
 import SearchPage from './pages/SearchPage';
 import UserDetailPage from './pages/UserDetailPage';
 import TransactionManagementPage from './pages/TransactionManagementPage';
+import UserManagementPage from './pages/UserManagementPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/transactions" element={<TransactionManagementPage />} />
+            <Route path="/users" element={<UserManagementPage />} />
             <Route path="/users/:userId" element={<UserDetailPage />} />
           </Route>
           
