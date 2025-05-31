@@ -2,8 +2,6 @@
 
 A modern, secure management console for WafR customer support agents to manage users, monitor transactions, and generate reports.
 
-![WafR Management Console](https://images.pexels.com/photos/7681091/pexels-photo-7681091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
-
 ## 🚀 Features
 
 - **Secure Authentication**
